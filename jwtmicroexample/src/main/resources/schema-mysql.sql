@@ -1,0 +1,17 @@
+CREATE TABLE user (
+  id          INT(11) NOT NULL AUTO_INCREMENT,
+  email       VARCHAR(128) UNIQUE NOT NULL,
+  username    VARCHAR(32) UNIQUE NOT NULL,
+  password    VARCHAR(128) NOT NULL,
+  enabled     BIT(1) NOT NULL,
+  PRIMARY KEY(id)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE role (
+  id          INT(11) NOT NULL AUTO_INCREMENT,
+  email    VARCHAR(128) NOT NULL,
+  role        VARCHAR(64) NOT NULL,
+  PRIMARY KEY(id)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE role
+  ADD FOREIGN KEY (email)
+  REFERENCES user(email);
