@@ -1,4 +1,4 @@
-package com.xavient.service.service;
+package com.com.service.service;
 
 import java.util.stream.Collectors;
 

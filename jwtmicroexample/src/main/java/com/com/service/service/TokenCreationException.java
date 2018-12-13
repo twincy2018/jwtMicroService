@@ -1,4 +1,4 @@
-package com.xavient.service.service;
+package com.com.service.service;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

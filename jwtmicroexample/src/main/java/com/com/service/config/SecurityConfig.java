@@ -18,9 +18,9 @@ import org.springframework.security.web.authentication.preauth.PreAuthenticatedA
 import org.springframework.security.web.authentication.preauth.PreAuthenticatedAuthenticationToken;
 import org.springframework.security.web.authentication.preauth.RequestHeaderAuthenticationFilter;
 
-import com.xavient.service.service.TokenAuthenticationUserDetailsService;
-import com.xavient.service.service.UsernamePasswordDetailsService;
-import com.xavient.service.web.TokenAuthenticationFilter;
+import com.com.service.service.TokenAuthenticationUserDetailsService;
+import com.com.service.service.UsernamePasswordDetailsService;
+import com.com.service.web.TokenAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity

@@ -1,4 +1,4 @@
-package com.xavient.jwtmicroexample;
+package com.com.jwtmicroexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
