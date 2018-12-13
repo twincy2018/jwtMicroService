@@ -1,4 +1,4 @@
-package com.xavient.service.model;
+package com.com.service.model;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

@@ -1,11 +1,14 @@
-package com.xavient.service.data;
+package com.com.service.data;
 
 import javax.persistence.PostPersist;
+
 import org.springframework.messaging.support.MessageBuilder;
 
 
-import com.xavient.service.model.Registration;
-import com.xavient.service.utils.BeanUtils;
+
+
+import com.com.service.model.Registration;
+import com.com.service.utils.BeanUtils;
 
 public class UserRegistrationListener {
 	private Registration registration;

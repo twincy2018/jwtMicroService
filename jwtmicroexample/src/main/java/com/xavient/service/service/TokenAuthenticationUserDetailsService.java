@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.auth0.jwt.exceptions.InvalidClaimException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.xavient.service.model.TokenUserDetails;
+import com.com.service.model.TokenUserDetails;
 
 @Service
 public class TokenAuthenticationUserDetailsService implements AuthenticationUserDetailsService<PreAuthenticatedAuthenticationToken> {

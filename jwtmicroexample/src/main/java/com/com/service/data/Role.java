@@ -1,4 +1,4 @@
-package com.xavient.service.data;
+package com.com.service.data;
 
 import java.io.Serializable;
 

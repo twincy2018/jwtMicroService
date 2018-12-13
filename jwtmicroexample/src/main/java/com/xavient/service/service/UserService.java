@@ -9,11 +9,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.xavient.service.data.Role;
-import com.xavient.service.data.User;
-import com.xavient.service.data.UserRepository;
-import com.xavient.service.model.NewUser;
-import com.xavient.service.model.Registration;
+import com.com.service.data.Role;
+import com.com.service.data.User;
+import com.com.service.data.UserRepository;
+import com.com.service.model.NewUser;
+import com.com.service.model.Registration;
 
 @Service
 public class UserService {

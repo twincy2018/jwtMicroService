@@ -1,4 +1,4 @@
-package com.xavient.service;
+package com.com.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,8 +11,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.xavient.service.model.Registration;
-import com.xavient.service.model.TokenProperties;
+import com.com.service.model.Registration;
+import com.com.service.model.TokenProperties;
 
 @SpringBootApplication
 @EnableEurekaClient

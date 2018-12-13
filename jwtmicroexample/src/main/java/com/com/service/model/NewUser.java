@@ -1,4 +1,4 @@
-package com.xavient.service.model;
+package com.com.service.model;
 
 public class NewUser {
     private String email;

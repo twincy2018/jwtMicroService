@@ -1,4 +1,4 @@
-package com.xavient.service.config;
+package com.com.service.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

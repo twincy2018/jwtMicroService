@@ -12,9 +12,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.xavient.service.data.Role;
-import com.xavient.service.data.User;
-import com.xavient.service.model.TokenUserDetails;
+import com.com.service.data.Role;
+import com.com.service.data.User;
+import com.com.service.model.TokenUserDetails;
 
 @Service
 public class UsernamePasswordDetailsService implements  UserDetailsService{

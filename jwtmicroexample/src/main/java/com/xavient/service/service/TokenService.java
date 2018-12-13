@@ -12,14 +12,16 @@ import java.util.Date;
 
 
 
+
+
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.xavient.service.data.Role;
-import com.xavient.service.data.User;
-import com.xavient.service.model.TokenProperties;
+import com.com.service.data.Role;
+import com.com.service.data.User;
+import com.com.service.model.TokenProperties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

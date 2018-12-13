@@ -1,4 +1,4 @@
-package com.xavient.service.utils;
+package com.com.service.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
